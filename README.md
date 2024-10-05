@@ -100,16 +100,16 @@ cd src/train
 python3 finetune_main.py --model_type april --cluster_id 1 --model_index 1
 ```
 
-### (IV) Train DNN model
+### (IV) Train discriminator model
 
-Load existing DNN models and generate data:
+Load existing discriminator models and generate data:
 ```sh
 cd src/shell
 
 ./shell_use_dnn.sh
 ```
 
-Retrain DNN models and generate data:
+Retrain discriminator models and generate data:
 ```sh
 cd src/shell
 
@@ -125,7 +125,7 @@ python3 train_DNN_all_lakes.py --model_index 1 --cluster_id 1 --TrainDNN 0
 | `--gpu`         | int  | 0       | GPU device ID to be used.                                                 |                                         |
 | `--model_index` | int  | 1       | Model index which maps to a random seed.                                  | 1, 2, 3                                 |
 | `--cluster_id`  | int  | 1       | Cluster Id                                                                | 1, 2, 3, 4                              |
-| `--TrainDNN`    | int  | 1       | Set to 1 to retrain the DNN model and generate data; set to 0 to load existing DNN models and generate data. | 0, 1                                    |
+| `--TrainDNN`    | int  | 1       | Set to 1 to retrain the discriminator model and generate data; set to 0 to load existing discriminator models and generate data. | 0, 1                                    |
 
 ### (VI) Data preprocessing for April
 
