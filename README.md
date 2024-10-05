@@ -17,7 +17,7 @@ python3 main.py
 ```
 
 ### (II) Train April
-#### IMPORTANT: Before training April, we recommend downloading the pretrained DNN model from this [Google Drive link](https://drive.google.com/file/d/1a0j5-dQ9S4o3U1hPuH-8OimKS6zdhK1y/view?usp=sharing) to achieve consistent results similar to ours. After downloading the DNN models, please follow the steps in [Section IV](#iv-train-dnn-model) to generate data and [Section VI](#vi-data-preprocessing-for-april) for data preprocessing for April.
+#### Tips: Before training April, we recommend downloading the pretrained discriminator model from this [Google Drive link](https://drive.google.com/file/d/1a0j5-dQ9S4o3U1hPuH-8OimKS6zdhK1y/view?usp=sharing) to achieve consistent results similar to ours. After downloading the discriminator models, please follow the steps in [Section IV](#iv-train-dnn-model) to generate data and [Section VI](#vi-data-preprocessing-for-april) for data preprocessing for April.
 
 #### 1. Pre-training stage
 
@@ -159,3 +159,14 @@ Project Directory/
 ├── april.yml               # Environment configuration file for this project
 │
 └── README.md               # Project documentation
+```
+
+## Contact
+
+Should you have any questions regarding our paper or codes, please don't hesitate to reach out via email at chq29@pitt.edu or ruy59@pitt.edu.
+
+
+## Acknowledgment 
+Our code is developed based on [GitHub - jdwillard19/MTL_lakes-Torch: Meta Transfer Learning for Lake Temperature Prediction](https://github.com/jdwillard19/MTL_lakes).
+
+
