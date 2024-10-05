@@ -1,5 +1,5 @@
 # Adaptive Process-Guided Learning: An Application in Predicting Lake DO Concentrations
-This repository is the official implementation of **Adaptive Process-Guided Learning: An Application in Predicting Lake DO Concentrations** submitted to **ICDM-2024**
+This repository is the official implementation of **Adaptive Process-Guided Learning: An Application in Predicting Lake DO Concentrations**, which will be presented at **ICDM 2024**.
 
 ![''](img/model.png)
 
