@@ -3,7 +3,7 @@ This repository is the official implementation of **Adaptive Process-Guided Lear
 
 ![''](img/model.png)
 
-## Environment
+## Python environment
 ```shell
 conda env create -f april.yml
 ```
