@@ -127,7 +127,7 @@ python3 train_DNN_all_lakes.py --model_index 1 --cluster_id 1 --TrainDNN 0
 | `--cluster_id`  | int  | 1       | Cluster Id                                                                | 1, 2, 3, 4                              |
 | `--TrainDNN`    | int  | 1       | Set to 1 to retrain the discriminator model and generate data; set to 0 to load existing discriminator models and generate data. | 0, 1                                    |
 
-### (VI) Data preprocessing for April
+### (V) Data preprocessing for April
 
 ```
 cd src/data
